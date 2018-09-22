@@ -5,10 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rimraf dist/ && babel ./src --out-dir dist/ --copy-files",
-    "start": "npm run build && node dist/index.js"
+    "build": "rimraf build/ && babel ./src --out-dir build/ --copy-files",
+    "start": "npm run build && node build/index.js"
   },
-  "author": "",
+  "author": "Arun Subramonia Sarma",
   "license": "ISC",
   "devDependencies": {
     "babel-cli": "^6.24.0",
