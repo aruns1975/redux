@@ -7,7 +7,7 @@ REDUX SAGA tutorial
 npm install --save redux-saga
 ``` 
 
-Creating the saga middleware
+## Creating the saga middleware
 ```
 import createSagaMiddleware from 'redux-saga';
 import { createStore } from 'redux';
