@@ -21,8 +21,8 @@ Creating sagas
 ===============
 The below saga is used to add and delete employee by callin async function simulating the service call.
 The saga can be invoked by dispatching the following actions
- 1 ADD_EMPLOYEE
- 2 DELETE_EMPLOYEE
+ 1) ADD_EMPLOYEE
+ 2) DELETE_EMPLOYEE
 ```
 const actionCreator = (type)=>(params)=>{
     if(params)
