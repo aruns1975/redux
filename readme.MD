@@ -1,8 +1,8 @@
 REDUX SAGA tutorial
 ===================
 
-Installation of Redux saga
-========================
+## Installation of Redux saga
+
 ```
 npm install --save redux-saga
 ``` 
@@ -17,8 +17,8 @@ const middlewares =applyMiddleware(sagaMiddleware,other middlewares);
 createStore(a=a,middlewares);
 ```
 
-Creating sagas
-===============
+## Creating sagas
+
 The below saga is used to add and delete employee by callin async function simulating the service call.
 The saga can be invoked by dispatching the following actions
  1) ADD_EMPLOYEE
@@ -58,8 +58,8 @@ function* employeeFunctionsSaga(){
 sagaMiddleware.run(employeeFunctionsSaga);
 ```
 
-Creating complex sagas
-======================
+## Creating complex sagas
+
 The below saga describes calling multiple services in parallel and after the execution of multiple service the response is used for callin another service and the result of the final service is stored in the redux store.
 
 It explains the calling of multiple service in parallel and processin the response
